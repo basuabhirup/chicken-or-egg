@@ -1,0 +1,23 @@
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-weight: 500;
+  color: var(--darkBlue2);
+  text-transform: capitalize;
+}
+
+footer > * {
+  margin: 0.5rem auto;
+}
+
+footer > :nth-child(1) {
+  font-size: 2rem;
+  line-height: 2.25rem;
+}
+
+footer > :nth-last-child(1) {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
