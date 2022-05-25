@@ -25,3 +25,8 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
+
+::selection {
+  color: var(--darkBlue1);
+  background: var(--emojiYellow);
+}
