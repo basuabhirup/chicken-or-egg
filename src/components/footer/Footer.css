@@ -13,11 +13,22 @@ footer > * {
 }
 
 footer > :nth-child(1) {
-  font-size: 2rem;
-  line-height: 2.25rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
 
 footer > :nth-last-child(1) {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+/* For Screens wider than 900px */
+@media only screen and (min-width: 900px) {
+  footer > :nth-child(1) {
+    font-size: 2rem;
+  }
+  
+  footer > :nth-last-child(1) {
+    font-size: 1.5rem;
+  }
 }

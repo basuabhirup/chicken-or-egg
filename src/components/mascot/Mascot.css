@@ -1,0 +1,11 @@
+.mascot {
+  margin: 1rem auto;
+  width: 18rem;
+}
+
+/* For Screens wider than 900px */
+@media only screen and (min-width: 900px) {
+  .mascot {
+    width: 25rem;
+  }
+}
