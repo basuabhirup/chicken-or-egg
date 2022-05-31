@@ -2,7 +2,7 @@
 	--background: #6d9feb;
 	--white: #fff;
 	--black: #000;
-	--emojiYellow: #ffdc62;
+	--yellow: #ffdc62;
 	--emojiPink: #e76060;
 	--lightBlue: #afcdf9;
 	--darkBlue1: #11233f;
@@ -28,5 +28,5 @@ code {
 
 ::selection {
   color: var(--darkBlue1);
-  background: var(--emojiYellow);
+  background: var(--yellow);
 }
