@@ -12,7 +12,7 @@ const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isFetching, setIsFetching] = useState<boolean>(true);
   const [selectionStatus, setSelectionStatus] = useState<boolean | null>(null);
-  const [pair] = useState<IPair>(data[0]);
+  const [pair, setPair] = useState<IPair>(data[0]);
 
   const option1ref = useRef<HTMLButtonElement | null>(null);
   const option2ref = useRef<HTMLButtonElement | null>(null);
@@ -64,7 +64,7 @@ const App: React.FC = () => {
       option1ref.current!.style.boxShadow =
         "0px 9.97345px 2.84956px -1.42478px var(--greenShadow)";
       option2ref.current!.style.backgroundColor = "var(--red)";
-      option2ref.current!.style.color = "var(--lightBlue)";
+      option2ref.current!.style.color = "var(--white)";
       option2ref.current!.style.boxShadow =
         "0px 9.97345px 2.84956px -1.42478px var(--redShadow)";
     }
@@ -82,6 +82,12 @@ const App: React.FC = () => {
       "0px 9.97345px 2.84956px -1.42478px rgba(8, 77, 181, 0.5)";
   };
 
+  const fetchNextPairOfOptions = () => {
+    const num  = Math.floor(Math.random() * 50 + 1)
+    const newPair = data.find((item) => item.pair_id === num) as IPair
+    setPair(newPair)
+  }
+  
   // Apply Side Effects
   useEffect(() => {
     setTimeout(() => {
@@ -97,9 +103,10 @@ const App: React.FC = () => {
         // Code Block to display Modal
 
         // Following code to be executed on clicking CTA button of the modal
+        setIsFetching(true);
         resetAnswerSelection();
         setSelectionStatus(null);
-        setIsFetching(true);
+        fetchNextPairOfOptions()
         setTimeout(() => {
           setIsFetching(false);
         }, 1750);
