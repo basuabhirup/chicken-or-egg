@@ -27,6 +27,13 @@ code {
 }
 
 ::selection {
-  color: var(--darkBlue1);
-  background: var(--yellow);
+	color: var(--darkBlue1);
+	background: var(--yellow);
+}
+
+/* For Screens wider than 900px */
+@media only screen and (max-width: 900px) {
+	html {
+		font-size: 12.5px;
+	}
 }

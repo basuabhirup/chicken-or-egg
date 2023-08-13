@@ -1,8 +1,5 @@
 footer {
-  position: fixed;
   width: 100%;
-  left: 0;
-  bottom: 0;
   font-weight: 500;
   color: var(--darkBlue2);
   text-transform: capitalize;
