@@ -1,0 +1,371 @@
+[
+    {
+        "pair_id": 0,
+        "options": [
+            "Chicken", "Egg"
+        ],
+        "correct_option": "Egg",
+        "description": "The age-old question: Which came first, the chicken or the egg? While chickens are descendants of birds that were not quite chickens, genetic mutations occurred in their offspring, leading to the first bird that we would call a chicken. Therefore, the first true chicken must have hatched from an egg laid by a bird that was very close to a chicken but not quite there."
+    },
+    {
+        "pair_id": 1,
+        "options": [
+            "Pyramids", "Sphinx"
+        ],
+        "correct_option": "Sphinx",
+        "description": "The Great Sphinx was carved around 2500 BCE, while the earliest pyramids in Egypt were constructed a few decades later as elaborate tombs for pharaohs."
+    },
+    {
+        "pair_id": 2,
+        "options": [
+            "Fire", "Wheel"
+        ],
+        "correct_option": "Fire",
+        "description": "Fire was harnessed by early humans around 1 million years ago, while the wheel was invented around 3500 BCE, revolutionizing transportation and machinery."
+    },
+    {
+        "pair_id": 3,
+        "options": [
+            "Writing", "Farming"
+        ],
+        "correct_option": "Farming",
+        "description": "Farming emerged around 10,000 BCE with the rise of agriculture, enabling settled societies. Writing systems, like cuneiform, began around 3000 BCE, marking the dawn of recorded history."
+    }, {
+        "pair_id": 4,
+        "options": [
+            "Stonehenge", "Colosseum"
+        ],
+        "correct_option": "Stonehenge",
+        "description": "Stonehenge's construction began around 3000 BCE as a prehistoric monument, whereas the Colosseum was built in 70-80 CE, hosting gladiatorial contests and spectacles."
+    }, {
+        "pair_id": 5,
+        "options": [
+            "Tea", "Coffee"
+        ],
+        "correct_option": "Tea",
+        "description": "Tea consumption dates back to ancient China in the 3rd millennium BCE, while coffee cultivation began in the Arab world around the 15th century CE."
+    }, {
+        "pair_id": 6,
+        "options": [
+            "Gunpowder", "Printing Press"
+        ],
+        "correct_option": "Gunpowder",
+        "description": "Gunpowder was invented in 9th-century China, revolutionizing warfare. The printing press, developed by Johannes Gutenberg in the 15th century, transformed communication and education."
+    }, {
+        "pair_id": 7,
+        "options": [
+            "Mona Lisa", "Starry Night"
+        ],
+        "correct_option": "Mona Lisa",
+        "description": "The Mona Lisa was painted by Leonardo da Vinci in the early 16th century, while Vincent van Gogh's Starry Night was created in 1889."
+    }, {
+        "pair_id": 8,
+        "options": [
+            "Steam Engine", "Electricity"
+        ],
+        "correct_option": "Steam Engine",
+        "description": "The steam engine, crucial to the Industrial Revolution, was developed in the 18th century. Electricity, harnessed for practical use, emerged in the late 19th century."
+    }, {
+        "pair_id": 9,
+        "options": [
+            "Radio", "Television"
+        ],
+        "correct_option": "Radio",
+        "description": "The radio was developed in the late 19th century, enabling long-distance communication. Television, with moving images, became widespread in the mid-20th century."
+    }, {
+        "pair_id": 10,
+        "options": [
+            "Penicillin", "Polio Vaccine"
+        ],
+        "correct_option": "Penicillin",
+        "description": "Alexander Fleming discovered penicillin's antibacterial properties in 1928, leading to the development of antibiotics. The polio vaccine, created by Jonas Salk in 1955, marked a major breakthrough in public health."
+    }, {
+        "pair_id": 11,
+        "options": [
+            "First Airplane", "Moon Landing"
+        ],
+        "correct_option": "First Airplane",
+        "description": "The Wright brothers' first successful airplane flight was in 1903, while the Apollo 11 mission achieved the moon landing in 1969."
+    }, {
+        "pair_id": 12,
+        "options": [
+            "Internet", "Smartphone"
+        ],
+        "correct_option": "Internet",
+        "description": "The precursor to the internet, ARPANET, was established in the late 1960s. The first smartphone, IBM Simon, was introduced in 1992."
+    }, {
+        "pair_id": 13,
+        "options": [
+            "Facebook", "YouTube"
+        ],
+        "correct_option": "Facebook",
+        "description": "YouTube, a platform for sharing videos, was created in 2005. Facebook, a social networking site, started in 2004, connecting people globally."
+    }, {
+        "pair_id": 14,
+        "options": [
+            "Google", "Amazon"
+        ],
+        "correct_option": "Amazon",
+        "description": "Google's search engine debuted in 1997, revolutionizing online information retrieval. Amazon, initially an online bookstore in 1994, evolved into a vast e-commerce and tech giant."
+    }, {
+        "pair_id": 15,
+        "options": [
+            "Netflix", "Google"
+        ],
+        "correct_option": "Netflix",
+        "description": "Netflix, founded by Marc Randolph and Reed Hastings on August 29, 1997, started as a DVD rental-by-mail service before transitioning to online streaming. Google, officially launched in 1998 by Larry Page and Sergey Brin, revolutionized web search and digital services. While both companies emerged around the same time, Netflix predates Google and pioneered the concept of online streaming, reshaping the way we consume media."
+    }, {
+        "pair_id": 16,
+        "options": [
+            "Eiffel Tower", "Statue of Liberty"
+        ],
+        "correct_option": "Statue of Liberty",
+        "description": "The Statue of Liberty was dedicated in 1886 as a symbol of freedom and democracy, whereas the Eiffel Tower was completed in 1889 as a prominent Parisian landmark."
+    }, {
+        "pair_id": 17,
+        "options": [
+            "Microscope", "Telescope"
+        ],
+        "correct_option": "Microscope",
+        "description": "The microscope, used to observe tiny objects, was developed in the late 16th century. Telescopes, designed for celestial observations, became popular in the early 17th century."
+    }, {
+        "pair_id": 18,
+        "options": [
+            "Steam Locomotive", "Automobile"
+        ],
+        "correct_option": "Steam Locomotive",
+        "description": "Steam locomotives revolutionized transportation in the early 19th century, while the automobile, powered by internal combustion engines, gained prominence in the late 19th century."
+    }, {
+        "pair_id": 19,
+        "options": [
+            "Hubble Space Telescope", "iPhone"
+        ],
+        "correct_option": "Hubble Space Telescope",
+        "description": "The Hubble Space Telescope, launched in 1990, provided stunning images of distant galaxies. The iPhone, a revolutionary smartphone, was introduced by Apple in 2007."
+    }, {
+        "pair_id": 20,
+        "options": [
+            "Prohibition", "World War I"
+        ],
+        "correct_option": "World War I",
+        "description": "World War I, a global conflict, lasted from 1914 to 1918, reshaping geopolitics. Prohibition in the United States, prohibiting alcohol, began in 1920 and ended in 1933."
+    }, {
+        "pair_id": 21,
+        "options": [
+            "Wright Brothers' Flight", "SpaceX's Falcon 9 Launch"
+        ],
+        "correct_option": "Wright Brothers' Flight",
+        "description": "The Wright brothers' historic flight in 1903 marked the birth of aviation. SpaceX's Falcon 9, a modern reusable rocket, had its maiden launch in 2010."
+    }, {
+        "pair_id": 22,
+        "options": [
+            "Facebook", "Instagram"
+        ],
+        "correct_option": "Facebook",
+        "description": "Facebook, a social networking site, started in 2004, connecting people globally. Instagram, a photo-sharing platform, was launched in 2010 and later acquired by Facebook."
+    }, {
+        "pair_id": 23,
+        "options": [
+            "Artificial Intelligence", "Blockchain"
+        ],
+        "correct_option": "Artificial Intelligence",
+        "description": "The concept of Artificial Intelligence (AI) emerged in the mid-20th century, focusing on computer systems simulating human intelligence. Blockchain technology, underlying cryptocurrencies, gained prominence in the late 2000s."
+    }, {
+        "pair_id": 24,
+        "options": [
+            "Vinyl Records", "Compact Discs"
+        ],
+        "correct_option": "Vinyl Records",
+        "description": "Vinyl records, analog audio discs, were introduced in the late 19th century and experienced their peak in the mid-20th century. Compact Discs (CDs), digital optical discs, were introduced in the 1980s."
+    }, {
+        "pair_id": 25,
+        "options": [
+            "Wheel of Fortune", "Jeopardy!"
+        ],
+        "correct_option": "Wheel of Fortune",
+        "description": "Wheel of Fortune, a TV game show, premiered in 1975, involving word puzzles and spinning a wheel for prizes. Jeopardy!, a quiz show testing general knowledge, debuted in 1964."
+    }, {
+        "pair_id": 26,
+        "options": [
+            "Cave Paintings", "Hieroglyphs"
+        ],
+        "correct_option": "Cave Paintings",
+        "description": "Cave paintings, found in various parts of the world, date back tens of thousands of years, capturing early human artistry. Hieroglyphs, a form of ancient Egyptian writing, began around 3300 BCE."
+    }, {
+        "pair_id": 27,
+        "options": [
+            "Wheelbarrow", "Windmill"
+        ],
+        "correct_option": "Windmill",
+        "description": "The wheelbarrow, an early construction tool, dates back to ancient Greece and China. Windmills, harnessed for grinding grain and pumping water, were developed around 7th-century Persia."
+    }, {
+        "pair_id": 28,
+        "options": [
+            "Dinosaurs", "Ancient Humans"
+        ],
+        "correct_option": "Dinosaurs",
+        "description": "Dinosaurs roamed the Earth during the Mesozoic Era, while ancient humans, our Homo sapiens ancestors, appeared around 300,000 years ago."
+    }, {
+        "pair_id": 29,
+        "options": [
+            "Sundial", "Compass"
+        ],
+        "correct_option": "Compass",
+        "description": "Sundials, relying on the sun's position, were used by ancient civilizations. The compass, invented in ancient China, became a navigational aid by the 11th century."
+    }, {
+        "pair_id": 30,
+        "options": [
+            "Plato", "Aristotle"
+        ],
+        "correct_option": "Aristotle",
+        "description": "Plato, a philosopher, lived around 428-348 BCE, founding the Academy in Athens. Aristotle, Plato's student, taught at the Academy and later founded his own school, the Lyceum.",
+        "is_person": true
+    }, {
+        "pair_id": 31,
+        "options": [
+            "Steam Locomotive", "Automobile"
+        ],
+        "correct_option": "Automobile",
+        "description": "The steam locomotive gained prominence in the 19th century, revolutionizing transportation. The automobile, powered by internal combustion engines, became widespread in the early 20th century."
+    }, {
+        "pair_id": 32,
+        "options": [
+            "Wright Brothers", "Amelia Earhart"
+        ],
+        "correct_option": "Wright Brothers",
+        "description": "The Wright brothers, pioneers of aviation, made their first successful flight in 1903. Amelia Earhart, a pioneering aviator, became the first woman to fly solo across the Atlantic in 1932.",
+        "is_person": true
+    }, {
+        "pair_id": 33,
+        "options": [
+            "Penicillin", "X-rays"
+        ],
+        "correct_option": "X-rays",
+        "description": "X-rays, a groundbreaking medical imaging technology, were discovered by Wilhelm Conrad Roentgen in 1895. Penicillin, the first widely used antibiotic, was discovered by Alexander Fleming in 1928."
+    }, {
+        "pair_id": 34,
+        "options": [
+            "Atomic Theory", "Theory of Relativity"
+        ],
+        "correct_option": "Atomic Theory",
+        "description": "Atomic theory, proposed by ancient Greek philosophers, gained modern understanding in the early 20th century with developments in quantum mechanics. Albert Einstein's theory of relativity revolutionized physics in the early 20th century."
+    }, {
+        "pair_id": 35,
+        "options": [
+            "Vinyl Records", "Cassette Tapes"
+        ],
+        "correct_option": "Cassette Tapes",
+        "description": "Vinyl records, a popular audio format, gained traction in the mid-20th century. Cassette tapes, compact and portable, rose to prominence in the 1970s."
+    }, {
+        "pair_id": 36,
+        "options": [
+            "Black and White TV", "Color TV"
+        ],
+        "correct_option": "Color TV",
+        "description": "Black and white televisions were commercially available in the 1930s. Color television technology was developed in the 1950s, leading to its widespread adoption."
+    }, {
+        "pair_id": 37,
+        "options": [
+            "Fax Machine", "Email"
+        ],
+        "correct_option": "Email",
+        "description": "The fax machine, used for transmitting documents over phone lines, gained popularity in the mid-20th century. Email, a revolutionary form of electronic communication, emerged in the late 20th century."
+    }, {
+        "pair_id": 38,
+        "options": [
+            "First Olympics", "First Paralympics"
+        ],
+        "correct_option": "First Olympics",
+        "description": "The ancient Olympic Games began in ancient Greece around 776 BCE. The Paralympic Games, for athletes with disabilities, were first held in 1960."
+    }, {
+        "pair_id": 39,
+        "options": [
+            "Leonardo da Vinci", "Michelangelo"
+        ],
+        "correct_option": "Michelangelo",
+        "description": "Leonardo da Vinci, a Renaissance polymath, lived from 1452 to 1519, known for his diverse talents. Michelangelo, a renowned artist and sculptor, lived from 1475 to 1564, leaving a lasting mark on art.",
+        "is_person": true
+    }, {
+        "pair_id": 40,
+        "options": [
+            "Compass", "Sundial"
+        ],
+        "correct_option": "Sundial",
+        "description": "The compass, invented in ancient China, became a navigational aid by the 11th century. Sundials, relying on the sun's position, were used by ancient civilizations."
+    }, {
+        "pair_id": 41,
+        "options": [
+            "Apple", "Microsoft"
+        ],
+        "correct_option": "Microsoft",
+        "description": "Apple, founded by Steve Jobs, Steve Wozniak, and Ronald Wayne on April 1, 1976, introduced the Apple I computer. Microsoft, founded by Bill Gates and Paul Allen on April 4, 1975, started by developing software for the Altair 8800. Both companies played pivotal roles in the personal computing revolution, but Apple predates Microsoft and contributed to shaping modern consumer technology with its innovative products."
+    }, {
+        "pair_id": 42,
+        "options": [
+            "First E-mail", "First Website"
+        ],
+        "correct_option": "First E-mail",
+        "description": "The first e-mail was sent by Ray Tomlinson in 1971, marking a significant milestone in the history of electronic communication. The first website, created by Tim Berners-Lee, went live in 1991, introducing the concept of the World Wide Web. While both the first e-mail and the first website contributed to shaping the modern digital landscape, the first e-mail predates the establishment of the World Wide Web."
+    }, {
+        "pair_id": 43,
+        "options": [
+            "Igneous Rocks", "Sedimentary Rocks"
+        ],
+        "correct_option": "Igneous Rocks",
+        "description": "Igneous rocks form from the cooling and solidification of molten materials such as magma or lava. They are the oldest type of rocks on Earth, dating back billions of years. Sedimentary rocks, on the other hand, are formed by the accumulation and compression of sediment over time. While both types of rocks contribute to the Earth's geological history, igneous rocks predate sedimentary rocks in terms of their formation and origin."
+    }, {
+        "pair_id": 44,
+        "options": [
+            "Linkin Park", "Green Day"
+        ],
+        "correct_option": "Green Day",
+        "description": "Green Day, formed in 1986 by Billie Joe Armstrong, Mike Dirnt, and Tre Cool, is a renowned punk rock band known for hits like 'Basket Case' and 'American Idiot.' Linkin Park, formed in 1996, gained fame with their fusion of rock and electronic elements in songs like 'In the End' and 'Numb.' While both bands have had significant impacts on the rock music scene, Green Day predates Linkin Park and is considered one of the pioneers of modern punk rock."
+    }, {
+        "pair_id": 45,
+        "options": [
+            "Pizza", "Hamburger"
+        ],
+        "correct_option": "Pizza",
+        "description": "Pizza, with origins dating back to ancient civilizations like the Greeks, Egyptians, and Romans, has evolved into the modern version we know today, originating in Naples, Italy in the 18th century. The hamburger, a ground meat patty sandwich, is believed to have been created in the United States in the late 1800s, with debates about its exact origin in places like New Haven, Connecticut, or Texas."
+    }, {
+        "pair_id": 46,
+        "options": [
+            "Bob Dylan", "Michael Jackson"
+        ],
+        "correct_option": "Bob Dylan",
+        "description": "Bob Dylan, born on May 24, 1941, is an influential singer-songwriter who emerged in the folk music scene during the 1960s. Michael Jackson, known as the King of Pop, was born on August 29, 1958, and gained international fame with hits like 'Thriller' and 'Billie Jean.' While both artists are iconic, Bob Dylan predates Michael Jackson and is recognized for his contributions to folk and protest music.",
+        "is_person": true
+    }, {
+        "pair_id": 47,
+        "options": [
+            "Elvis Presley", "Madonna"
+        ],
+        "correct_option": "Elvis Presley",
+        "description": "Elvis Presley, born on January 8, 1935, was the King of Rock and Roll, becoming a cultural icon with his rockabilly sound in the 1950s. Madonna, born on August 16, 1958, and known as the Queen of Pop, rose to prominence in the 1980s with hits like 'Like a Virgin' and 'Material Girl.' While both artists have left their marks on popular music, Elvis Presley predates Madonna and played a pivotal role in shaping rock and roll.",
+        "is_person": true
+    }, {
+        "pair_id": 48,
+        "options": [
+            "Johann Sebastian Bach", "Ludwig van Beethoven"
+        ],
+        "correct_option": "Johann Sebastian Bach",
+        "description": "Johann Sebastian Bach, born on March 31, 1685, was a prolific composer of the Baroque period, renowned for his intricate compositions. Ludwig van Beethoven, born on December 17, 1770, was a composer from the Classical to Romantic transition, creating groundbreaking symphonies like the 'Ninth Symphony.' While both composers are giants in classical music, Johann Sebastian Bach predates Beethoven and left a lasting legacy on music composition.",
+        "is_person": true
+    }, {
+        "pair_id": 49,
+        "options": [
+            "Frank Sinatra", "Elton John"
+        ],
+        "correct_option": "Frank Sinatra",
+        "description": "Frank Sinatra, born on December 12, 1915, known as the Chairman of the Board, was a legendary crooner and actor with hits like 'My Way' and 'New York, New York.' Elton John, born on March 25, 1947, a singer-songwriter and pianist, captivated audiences with his distinctive style and songs like 'Rocket Man' and 'Candle in the Wind.' While both artists are celebrated, Frank Sinatra predates Elton John and is a symbol of classic vocal performance.",
+        "is_person": true
+    }, {
+        "pair_id": 50,
+        "options": [
+            "Adele", "Ed Sheeran"
+        ],
+        "correct_option": "Adele",
+        "description": "Adele, born on May 5, 1988, is a British singer-songwriter who gained global recognition with her soulful voice and hits like 'Rolling in the Deep' and 'Hello.' Ed Sheeran, born on February 17, 1991, another British artist, became a chart-topping sensation with songs like 'Shape of You' and 'Thinking Out Loud.' While both artists have achieved immense success, Adele predates Ed Sheeran and is known for her powerful vocal performances.",
+        "is_person": true
+    }
+]
