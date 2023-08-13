@@ -1,8 +1,17 @@
-import React from 'react'
-import './Header.css'
+import React from "react";
+import "./Header.css";
+import { IPair } from "../../utils/interfaces";
 
-const Header: React.FC = () => {
-  return <header>What came first ?</header>
+interface IProps {
+  pair: IPair;
 }
 
-export default Header
+const Header: React.FC<IProps> = ({ pair }) => {
+  return (
+    <header>{`${
+      pair.is_person === true ? "Who" : "What"
+    } came first ?`}</header>
+  );
+};
+
+export default Header;

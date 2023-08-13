@@ -2,11 +2,15 @@
 	--background: #6d9feb;
 	--white: #fff;
 	--black: #000;
-	--emojiYellow: #ffdc62;
+	--yellow: #ffdc62;
 	--emojiPink: #e76060;
 	--lightBlue: #afcdf9;
 	--darkBlue1: #11233f;
 	--darkBlue2: #02398a;
+	--green: #76e881;
+	--greenShadow: #2fb23c;
+	--red: #f06969;
+	--redShadow: #db2424;
 }
 
 html {
@@ -27,6 +31,13 @@ code {
 }
 
 ::selection {
-  color: var(--darkBlue1);
-  background: var(--emojiYellow);
+	color: var(--darkBlue1);
+	background: var(--yellow);
+}
+
+/* For Screens wider than 900px */
+@media only screen and (max-width: 900px) {
+	html {
+		font-size: 12.5px;
+	}
 }

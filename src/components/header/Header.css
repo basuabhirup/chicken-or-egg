@@ -1,7 +1,15 @@
 header {
-	margin-top: 7.5vh;
+	margin-top: 6vh;
 	font-weight: 700;
 	color: var(--white);
-	font-size: 5rem;
+	font-size: 3.5rem;
 	line-height: 1.25;
+}
+
+/* For Screens wider than 900px */
+@media only screen and (min-width: 900px) {
+  header {
+		margin-top: 7.5vh;
+		font-size: 5.5rem;
+  }
 }
