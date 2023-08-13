@@ -5,6 +5,7 @@
 	justify-content: center;
 	align-items: center;
 	margin: 1rem 2rem 3rem;
+	min-height: 15rem;
 }
 
 .options .option {
@@ -33,6 +34,16 @@
 	box-shadow: 0px 9.97345px 2.84956px -1.42478px rgba(209, 190, 11, 0.5);
 }
 
+
+.options .option:active {
+	margin-top: 0.5rem;
+	box-shadow: none;
+}
+
+.options .option:disabled {
+	cursor: not-allowed;
+}
+
 .options .conjunction {
 	font-weight: 500;
 	font-size: 2rem;
@@ -55,9 +66,13 @@
 	.options {
 		flex-flow: row nowrap;
 		padding: 0;
-		margin: 1rem auto 5rem;
+		margin: 1rem auto 3rem;
 	}
+
 	.options .option {
 		margin: 3rem;
+	}
+	.options .option:active {
+		margin-top: 4.5rem;
 	}
 }

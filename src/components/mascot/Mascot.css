@@ -1,3 +1,7 @@
+.mascot-container {
+  min-height: 10rem;
+}
+
 .mascot {
   margin: 1rem auto 0;
   width: 18rem;
@@ -5,6 +9,9 @@
 
 /* For Screens wider than 900px */
 @media only screen and (min-width: 900px) {
+  .mascot-container {
+    min-height: 16rem;
+  }
   .mascot {
     width: 22.5rem;
   }
