@@ -1,71 +1,24 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import "./Options.css";
 import { IPair } from "../../utils/interfaces";
 
 interface IProps {
   pair: IPair;
   isLoading: boolean;
-  setIsLoading: React.Dispatch<React.SetStateAction<boolean>>;
-  setSelectionStatus: React.Dispatch<React.SetStateAction<boolean | null>>;
+  option1ref: React.MutableRefObject<HTMLButtonElement | null>;
+  option2ref: React.MutableRefObject<HTMLButtonElement | null>;
+  isInitialLoad: boolean;  
+  handleOptionSelection: (e: any) => void,
 }
 
 const Options: React.FC<IProps> = ({
   pair,
   isLoading,
-  setIsLoading,
-  setSelectionStatus,
+  option1ref,
+  option2ref,
+  isInitialLoad,
+  handleOptionSelection,
 }) => {
-  const option1ref = useRef<HTMLButtonElement | null>(null);
-  const option2ref = useRef<HTMLButtonElement | null>(null);
-  const [isInitialLoad, setIsInitialLoad] = useState(true);
-
-  const applyTrueAnswerSelection = (selectedOptionName: String) => {
-    setSelectionStatus(true);
-    if (selectedOptionName === "option1") {
-      option1ref.current!.style.backgroundColor = "var(--green)";
-      option1ref.current!.style.boxShadow = "0px 9.97345px 2.84956px -1.42478px var(--greenShadow)"
-    }
-    if (selectedOptionName === "option2") {
-      option2ref.current!.style.backgroundColor = "var(--green)";
-      option2ref.current!.style.boxShadow = "0px 9.97345px 2.84956px -1.42478px var(--greenShadow)"
-    }
-  };
-
-  const applyFalseAnswerSelection = (selectedOptionName: String) => {
-    setSelectionStatus(false);
-    if (selectedOptionName === "option1") {
-      option1ref.current!.style.backgroundColor = "var(--red)";
-      option1ref.current!.style.color = "var(--white)";
-      option1ref.current!.style.boxShadow = "0px 9.97345px 2.84956px -1.42478px var(--redShadow)"
-      option2ref.current!.style.backgroundColor = "var(--green)";
-      option2ref.current!.style.boxShadow = "0px 9.97345px 2.84956px -1.42478px var(--greenShadow)"
-    }
-    if (selectedOptionName === "option2") {
-      option1ref.current!.style.backgroundColor = "var(--green)";
-      option1ref.current!.style.boxShadow = "0px 9.97345px 2.84956px -1.42478px var(--greenShadow)"
-      option2ref.current!.style.backgroundColor = "var(--red)";
-      option2ref.current!.style.color = "var(--lightBlue)";
-      option2ref.current!.style.boxShadow = "0px 9.97345px 2.84956px -1.42478px var(--redShadow)"
-    }
-  };
-
-  const handleSelection = (e: any) => {
-    const selectedOptionName = e.target.name;
-    const selectedOptionValue = e.target.innerHTML;
-
-    setIsLoading(true)
-
-    if (selectedOptionValue === pair.correct_option) {
-      applyTrueAnswerSelection(selectedOptionName);
-    } else {
-      applyFalseAnswerSelection(selectedOptionName);
-    }
-
-    if (!!isInitialLoad) {
-      setIsInitialLoad(false);
-    }
-  };
-
   return (
     <>
       <section className="options">
@@ -74,7 +27,7 @@ const Options: React.FC<IProps> = ({
           name="option1"
           ref={option1ref}
           disabled={isLoading}
-          onClick={handleSelection}
+          onClick={handleOptionSelection}
         >
           {pair.options[0]}
         </button>
@@ -84,7 +37,7 @@ const Options: React.FC<IProps> = ({
           name="option2"
           ref={option2ref}
           disabled={isLoading}
-          onClick={handleSelection}
+          onClick={handleOptionSelection}
         >
           {pair.options[1]}
         </button>

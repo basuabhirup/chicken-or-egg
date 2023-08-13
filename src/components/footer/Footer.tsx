@@ -1,13 +1,21 @@
-import React from 'react'
-import './Footer.css'
+import React from "react";
+import "./Footer.css";
 
-const Footer: React.FC = () => {
-  return (
-    <footer>
-      <div>Made with curiosity by Anusha {`&`} Abhirup</div>
-      <div>Copyright {new Date().getFullYear()} © Chicken Or Egg</div>
-    </footer>
-  )
+interface IProps {
+  isFetching: boolean;
 }
 
-export default Footer
+const Footer: React.FC<IProps> = ({ isFetching }) => {
+  return (
+    <footer>
+      {!isFetching && (
+        <>
+          <div>Made with curiosity by Anusha {`&`} Abhirup</div>
+          <div>Copyright {new Date().getFullYear()} © Chicken Or Egg</div>
+        </>
+      )}
+    </footer>
+  );
+};
+
+export default Footer;

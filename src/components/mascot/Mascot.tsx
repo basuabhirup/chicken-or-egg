@@ -3,13 +3,27 @@ import "./Mascot.css";
 import Mascot0 from "../../assets/svg/Mascot0.svg";
 import Mascot1 from "../../assets/svg/Mascot1.svg";
 import Mascot2 from "../../assets/svg/Mascot2.svg";
+import Loader_Mascot from "../../assets/Loader_Mascot.gif";
 
 interface IProps {
-  isLoading: boolean
+  isFetching: boolean;
   selectionStatus: boolean | null;
 }
 
-const Mascot: React.FC<IProps> = ({ isLoading, selectionStatus }) => {
+const Mascot: React.FC<IProps> = ({ isFetching, selectionStatus }) => {
+  if (!!isFetching) {
+    return (
+      <div className="mascot-container">
+        <img
+          className="mascot"
+          src={Loader_Mascot}
+          alt="Loading Face"
+          style={{ margin: "3rem auto", width: "20rem" }}
+        />
+      </div>
+    );
+  }
+
   return (
     <div className="mascot-container">
       {selectionStatus === null && (
