@@ -18,7 +18,7 @@ const Mascot: React.FC<IProps> = ({ isFetching, selectionStatus }) => {
           className="mascot"
           src={Loader_Mascot}
           alt="Loading Face"
-          style={{ margin: "3rem auto", width: "20rem" }}
+          style={{ margin: "3rem auto", width: "27.5rem" }}
         />
       </div>
     );
