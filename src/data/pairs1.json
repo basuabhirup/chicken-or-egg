@@ -145,17 +145,17 @@
     }, {
         "pair_id": 20,
         "options": [
-            "Prohibition", "World War I"
+            "World War I", "Theory of Relativity"
         ],
-        "correct_option": "World War I",
-        "description": "World War I, a global conflict, lasted from 1914 to 1918, reshaping geopolitics. Prohibition in the United States, prohibiting alcohol, began in 1920 and ended in 1933."
+        "correct_option": "Theory of Relativity",
+        "description": "Albert Einstein's Theory of Relativity, a groundbreaking concept in physics, was published in the year 1905 (for the first time) and revolutionized our understanding of space, time, and gravity. World War I, a global conflict lasting from 1914 to 1918, reshaped geopolitical landscapes and marked a significant chapter in modern history."
     }, {
         "pair_id": 21,
         "options": [
-            "Wright Brothers' Flight", "SpaceX's Falcon 9 Launch"
+            "Mouse", "Keyboard"
         ],
-        "correct_option": "Wright Brothers' Flight",
-        "description": "The Wright brothers' historic flight in 1903 marked the birth of aviation. SpaceX's Falcon 9, a modern reusable rocket, had its maiden launch in 2010."
+        "correct_option": "Keyboard",
+        "description": "The keyboard, invented by Christopher Latham Sholes in 1878, is a device used for inputting text and commands into computers, evolving from early typewriters to modern computer keyboards. The mouse, invented by Douglas Engelbart in 1968, is a pointing device that revolutionized computer interaction, enhancing graphical user interfaces and navigation."
     }, {
         "pair_id": 22,
         "options": [
@@ -180,10 +180,10 @@
     }, {
         "pair_id": 25,
         "options": [
-            "Wheel of Fortune", "Jeopardy!"
+            "Google Chrome", "Mozilla Firefox"
         ],
-        "correct_option": "Wheel of Fortune",
-        "description": "Wheel of Fortune, a TV game show, premiered in 1975, involving word puzzles and spinning a wheel for prizes. Jeopardy!, a quiz show testing general knowledge, debuted in 1964."
+        "correct_option": "Mozilla Firefox",
+        "description": "Mozilla Firefox, a web browser developed by Mozilla Foundation, was first released in 2002 as an open-source alternative to Internet Explorer. Google Chrome, developed by Google, made its debut in 2008, quickly gaining popularity for its speed and simplicity."
     }, {
         "pair_id": 26,
         "options": [
@@ -201,10 +201,10 @@
     }, {
         "pair_id": 28,
         "options": [
-            "Dinosaurs", "Ancient Humans"
+            "Dinosaurs", "Ancient Sharks"
         ],
-        "correct_option": "Dinosaurs",
-        "description": "Dinosaurs roamed the Earth during the Mesozoic Era, while ancient humans, our Homo sapiens ancestors, appeared around 300,000 years ago."
+        "correct_option": "Ancient Sharks",
+        "description": "Ancient sharks, part of the Chondrichthyes class, have existed for hundreds of millions of years, predating even the dinosaurs. Their lineage dates back to the early Devonian period, around 420 million years ago. Dinosaurs, on the other hand, roamed the Earth during the Mesozoic Era, spanning from approximately 252 to 66 million years ago."
     }, {
         "pair_id": 29,
         "options": [
@@ -261,7 +261,7 @@
         "options": [
             "Black and White TV", "Color TV"
         ],
-        "correct_option": "Color TV",
+        "correct_option": "Black and White TV",
         "description": "Black and white televisions were commercially available in the 1930s. Color television technology was developed in the 1950s, leading to its widespread adoption."
     }, {
         "pair_id": 37,
@@ -362,10 +362,11 @@
     }, {
         "pair_id": 50,
         "options": [
-            "Adele", "Ed Sheeran"
+            "Ed Sheeran", "Taylor Swift"
         ],
-        "correct_option": "Adele",
-        "description": "Adele, born on May 5, 1988, is a British singer-songwriter who gained global recognition with her soulful voice and hits like 'Rolling in the Deep' and 'Hello.' Ed Sheeran, born on February 17, 1991, another British artist, became a chart-topping sensation with songs like 'Shape of You' and 'Thinking Out Loud.' While both artists have achieved immense success, Adele predates Ed Sheeran and is known for her powerful vocal performances.",
+        "correct_option": "Taylor Swift",
+        "description": "Taylor Swift, born on December 13, 1989, is a renowned singer-songwriter who gained prominence in the mid-2000s and has become one of the most successful artists of her generation. Ed Sheeran, born on February 17, 1991, is also a singer-songwriter who rose to fame in the late 2000s and has achieved global recognition for his heartfelt music and performances.",
         "is_person": true
     }
+
 ]
