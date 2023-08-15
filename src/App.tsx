@@ -3,15 +3,38 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Mascot from "./components/mascot/Mascot";
 import Options from "./components/options/Options";
-import Footer from "./components/footer/Footer";
 import { IPair } from "./utils/interfaces";
 import data from "./data/pairs1.json";
+import ReactModal from "react-modal";
+import Footer from "./components/footer/Footer";
+import InfoModal from "./components/infoModal/InfoModal";
+
+const infoModalStyles = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+    width: "60dvw",
+    minHeight: "20dvh",
+    borderRadius: "1.3125rem",
+    background: "#fff",
+  },
+  overlay: {
+    backgroundColor: "rgba(0,0,0,0.5)",
+  },
+};
+
+ReactModal.setAppElement("#root");
 
 const App: React.FC = () => {
   const [isInitialLoad, setIsInitialLoad] = useState(true);
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [isFetching, setIsFetching] = useState<boolean>(true);
+  const [isFetching, setIsFetching] = useState<boolean>(false);
   const [selectionStatus, setSelectionStatus] = useState<boolean | null>(null);
+  const [modalIsOpen, setIsOpen] = React.useState(false);
   const [pair, setPair] = useState<IPair>(data[0]);
 
   const option1ref = useRef<HTMLButtonElement | null>(null);
@@ -83,33 +106,38 @@ const App: React.FC = () => {
   };
 
   const fetchNextPairOfOptions = () => {
-    const num  = Math.floor(Math.random() * 50 + 1)
-    const newPair = data.find((item) => item.pair_id === num) as IPair
-    setPair(newPair)
-  }
-  
-  // Apply Side Effects
-  useEffect(() => {
+    setIsFetching(true);
+    resetAnswerSelection();
+    setSelectionStatus(null);
+    const num = Math.floor(Math.random() * 50 + 1);
+    const newPair = data.find((item) => item.pair_id === num) as IPair;
+    setPair(newPair);
     setTimeout(() => {
       setIsFetching(false);
     }, 1250);
-  }, []);
+  };
 
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const afterOpenModal = () => {
+    // references are now sync'd and can be accessed.
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+    // Following code to be executed on clicking CTA button of the modal
+    fetchNextPairOfOptions();
+  };
+
+  // Apply Side Effects
   useEffect(() => {
     if (selectionStatus === true || selectionStatus === false) {
       setTimeout(() => {
         setIsLoading(false);
-        alert(pair.description);
         // Code Block to display Modal
-
-        // Following code to be executed on clicking CTA button of the modal
-        setIsFetching(true);
-        resetAnswerSelection();
-        setSelectionStatus(null);
-        fetchNextPairOfOptions()
-        setTimeout(() => {
-          setIsFetching(false);
-        }, 1750);
+        openModal();
       }, 750);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -131,6 +159,17 @@ const App: React.FC = () => {
           handleOptionSelection={handleOptionSelection}
         />
       )}
+      <ReactModal
+        isOpen={modalIsOpen}
+        onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        style={infoModalStyles}
+        contentLabel="Info Modal"
+        shouldCloseOnEsc={false}
+        shouldCloseOnOverlayClick={false}
+      >
+        <InfoModal pair={pair} closeModal={closeModal} />
+      </ReactModal>
       <Footer isFetching={isFetching} />
     </div>
   );

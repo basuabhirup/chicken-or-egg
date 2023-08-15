@@ -7,8 +7,8 @@ interface IProps {
   isLoading: boolean;
   option1ref: React.MutableRefObject<HTMLButtonElement | null>;
   option2ref: React.MutableRefObject<HTMLButtonElement | null>;
-  isInitialLoad: boolean;  
-  handleOptionSelection: (e: any) => void,
+  isInitialLoad: boolean;
+  handleOptionSelection: (e: any) => void;
 }
 
 const Options: React.FC<IProps> = ({

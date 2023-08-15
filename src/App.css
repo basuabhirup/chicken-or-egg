@@ -2,6 +2,15 @@
   text-align: center;
 }
 
-/* .App > * {
-  border: 1px solid red;
-} */
+.ReactModal__Overlay {
+  opacity: 0.2;
+  transition: opacity 300ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--after-close{
+  opacity: 0.5;
+}
