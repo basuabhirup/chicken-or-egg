@@ -71,8 +71,15 @@
 
 	.options .option {
 		margin: 3rem;
+		/* flex: 0 0 calc(40% - 120px); */
+		max-width: calc(40% - 5rem);
 	}
+
 	.options .option:active {
 		margin-top: 4.5rem;
 	}
+
+	/* .options .conjunction {
+		flex: 0 0 calc(20% - 15rem);
+	} */
 }
