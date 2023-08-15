@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.ReactModal__Content {
+  width: 75dvw;
+  min-height: 20dvh;
+}
+
 .ReactModal__Overlay {
   opacity: 0.2;
   transition: opacity 300ms ease-in-out;
@@ -13,4 +18,11 @@
 
 .ReactModal__Overlay--after-close{
   opacity: 0.5;
+}
+
+/* For Screens wider than 900px */
+@media only screen and (min-width: 900px) {
+	.ReactModal__Content {
+    width: 60dvw;
+  }
 }

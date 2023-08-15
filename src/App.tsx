@@ -17,8 +17,6 @@ const infoModalStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    width: "60dvw",
-    minHeight: "20dvh",
     borderRadius: "1.3125rem",
     background: "#fff",
   },
