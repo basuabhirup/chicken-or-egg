@@ -298,7 +298,7 @@
             "Apple", "Microsoft"
         ],
         "correct_option": "Microsoft",
-        "description": "Apple, founded by Steve Jobs, Steve Wozniak, and Ronald Wayne on April 1, 1976, introduced the Apple I computer. Microsoft, founded by Bill Gates and Paul Allen on April 4, 1975, started by developing software for the Altair 8800. Both companies played pivotal roles in the personal computing revolution, but Apple predates Microsoft and contributed to shaping modern consumer technology with its innovative products."
+        "description": "Apple, founded by Steve Jobs, Steve Wozniak, and Ronald Wayne on April 1, 1976, introduced the Apple I computer. Microsoft, founded by Bill Gates and Paul Allen on April 4, 1975, started by developing software for the Altair 8800. Both companies played pivotal roles in the personal computing revolution, but Microsoft predates Apple and contributed to shaping modern consumer technology with its innovative products."
     }, {
         "pair_id": 42,
         "options": [
