@@ -19,6 +19,15 @@ footer > :nth-last-child(1) {
   line-height: 1.25;
 }
 
+.link{
+  text-decoration: none;
+  color: var(--darkBlue2)
+}
+
+.link:hover{
+  color: var(--darkBlue1)
+}
+
 /* For Screens wider than 900px */
 @media only screen and (min-width: 900px) {
   footer > :nth-child(1) {
