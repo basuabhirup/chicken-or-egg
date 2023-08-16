@@ -35,7 +35,7 @@ Contributions are more than welcome! If you have intriguing questions, feature i
 
 ## License
 
-This project is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This project is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 ## Report an Error
 
@@ -43,7 +43,7 @@ To err, is human. If you notice any errors in the data, please send them to us [
 
 ## Get in Touch
 
-Have questions, suggestions, or just want to chat? Reach out at [rairaianusha@gmail.com.com](mailto:rairaianusha@gmail.com.com).
+Have questions, suggestions, feedback or just want to chat? Reach out at ✉ [hello@webdbyab.com](mailto:hello@webdbyab.com).
 
 ---
 
