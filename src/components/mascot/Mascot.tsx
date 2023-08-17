@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
 import "./Mascot.css";
-import { MascotNeutral } from "../../assets/svg/MascotNeutral";
-import MascotHappy from "../../assets/svg/Mascot1.svg";
-import MascotSad from "../../assets/svg/Mascot2.svg";
 import Loader_Mascot from "../../assets/Loader_Mascot.gif";
+import { MascotHappy, MascotNeutral, MascotSad } from "../../assets/Mascots";
 
 interface IProps {
   isFetching: boolean;
@@ -87,18 +85,17 @@ const Mascot: React.FC<IProps> = ({ isFetching, selectionStatus }) => {
 
   return (
     <div className="mascot-container">
-      {selectionStatus === null && (
-        <div
-          className="mascot"
-          dangerouslySetInnerHTML={{ __html: MascotNeutral }}
-        />
-      )}
-      {selectionStatus === true && (
-        <img className="mascot" src={MascotHappy} alt="Happy Face" />
-      )}
-      {selectionStatus === false && (
-        <img className="mascot" src={MascotSad} alt="Sad Face" />
-      )}
+      <div
+        className="mascot"
+        dangerouslySetInnerHTML={{
+          __html:
+            selectionStatus === null
+              ? MascotNeutral
+              : selectionStatus === true
+              ? MascotHappy
+              : MascotSad,
+        }}
+      />
     </div>
   );
 };
