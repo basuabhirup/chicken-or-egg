@@ -17,7 +17,14 @@ const InfoModal: React.FC<IProps> = ({ pair, closeModal }) => {
           <span>Next </span>
           <img src={NextIcon} alt="Next" />
         </button>
-        {/* <button className="info-modal-report">Report Error</button> */}
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfEbNwXz73P1xA__vGzkGWOE5EoFQHwGI0unKEpjHL53qzxFQ/viewform"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="info-modal-error"
+        >
+          Report an error?
+        </a>
       </div>
     </div>
   );

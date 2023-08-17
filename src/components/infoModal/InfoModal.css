@@ -43,7 +43,7 @@
 .info-modal-next>img {
     align-self: center;
     margin-left: 1rem;
-    margin-top: 0.5rem;
+    margin-top: 0.3rem;
     width: 0.75rem;
 }
 
@@ -56,6 +56,19 @@
 .info-modal-next:active {
     margin-top: 0.5rem;
     box-shadow: none;
+}
+
+.info-modal-error {
+    margin-top: 1.5rem;
+    text-decoration: none;
+    color: #A0A0A0;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 /* For Screens wider than 900px */

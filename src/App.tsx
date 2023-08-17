@@ -112,7 +112,7 @@ const App: React.FC = () => {
     setPair(newPair);
     setTimeout(() => {
       setIsFetching(false);
-    }, 1250);
+    }, 1500);
   };
 
   const openModal = () => {
@@ -136,7 +136,7 @@ const App: React.FC = () => {
         setIsLoading(false);
         // Code Block to display Modal
         openModal();
-      }, 750);
+      }, 1250);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectionStatus]);
