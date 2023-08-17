@@ -32,9 +32,10 @@ const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isFetching, setIsFetching] = useState<boolean>(false);
   const [selectionStatus, setSelectionStatus] = useState<boolean | null>(null);
-  const [modalIsOpen, setIsOpen] = React.useState(false);
+  const [modalIsOpen, setIsOpen] = useState(false);
   const [pair, setPair] = useState<IPair>(data[0]);
 
+  const remainingPairsRef = useRef<IPair[]>(data.slice(0));
   const option1ref = useRef<HTMLButtonElement | null>(null);
   const option2ref = useRef<HTMLButtonElement | null>(null);
 
@@ -103,12 +104,29 @@ const App: React.FC = () => {
       "0px 9.97345px 2.84956px -1.42478px rgba(8, 77, 181, 0.5)";
   };
 
+  const getRandomPairWithoutRepeat = () => {
+    if (remainingPairsRef.current.length < 2) {
+      // we will omit data[0] for randomisation purpose
+      remainingPairsRef.current = data.slice(0); //recreate as a duplicate array
+    }
+    const index = Math.floor(
+      Math.random() * (remainingPairsRef.current.length - 1) + 1
+    ); // ignore data[0]
+    var item = remainingPairsRef.current[index];
+    // console.log(item.pair_id);
+    remainingPairsRef.current.splice(index, 1);
+    // const remainingIndices = remainingPairsRef.current.map(
+    //   (item) => item.pair_id
+    // );
+    // console.log(remainingIndices);
+    return item;
+  };
+
   const fetchNextPairOfOptions = () => {
     setIsFetching(true);
     resetAnswerSelection();
     setSelectionStatus(null);
-    const num = Math.floor(Math.random() * 50 + 1);
-    const newPair = data.find((item) => item.pair_id === num) as IPair;
+    const newPair = getRandomPairWithoutRepeat();
     setPair(newPair);
     setTimeout(() => {
       setIsFetching(false);
