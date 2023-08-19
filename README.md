@@ -31,7 +31,7 @@ Are you ready to explore the depths of time and make decisions that have perplex
 
 ## Contributing
 
-Contributions are more than welcome! If you have intriguing questions, feature ideas, or improvements to offer, don't hesitate to submit a pull request.
+Contributions are more than welcome! If you have intriguing questions, feature ideas, or improvements to offer, don't hesitate to submit a pull request, or create an issue.
 
 ## License
 
