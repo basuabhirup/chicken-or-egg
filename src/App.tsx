@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import "./App.css";
 import Header from "./components/header/Header";
 import Mascot from "./components/mascot/Mascot";
@@ -39,6 +39,13 @@ const App: React.FC = () => {
   const option1ref = useRef<HTMLButtonElement | null>(null);
   const option2ref = useRef<HTMLButtonElement | null>(null);
 
+  const winAudio = useMemo(() => new Audio("/assets/audio/Win.wav"), []);
+  const loseAudio = useMemo(() => new Audio("/assets/audio/Lose.wav"), []);
+  const clickOnNextBtnAudio = useMemo(
+    () => new Audio("/assets/audio/MouseClick.mp3"),
+    []
+  );
+
   const handleOptionSelection = (e: any) => {
     const selectedOptionName = e.target.name;
     const selectedOptionValue = e.target.innerHTML;
@@ -57,6 +64,7 @@ const App: React.FC = () => {
   };
 
   const applyTrueAnswerSelection = (selectedOptionName: String) => {
+    winAudio.play();
     setSelectionStatus(true);
     if (selectedOptionName === "option1") {
       option1ref.current!.style.backgroundColor = "var(--green)";
@@ -71,6 +79,7 @@ const App: React.FC = () => {
   };
 
   const applyFalseAnswerSelection = (selectedOptionName: String) => {
+    loseAudio.play();
     setSelectionStatus(false);
     if (selectedOptionName === "option1") {
       option1ref.current!.style.backgroundColor = "var(--red)";
@@ -142,9 +151,12 @@ const App: React.FC = () => {
   };
 
   const closeModal = () => {
-    setIsOpen(false);
+    clickOnNextBtnAudio.play();
     // Following code to be executed on clicking CTA button of the modal
-    fetchNextPairOfOptions();
+    setTimeout(() => {
+      setIsOpen(false);
+      fetchNextPairOfOptions();
+    }, 300);
   };
 
   // Apply Side Effects
