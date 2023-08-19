@@ -131,14 +131,14 @@
     }, {
         "pair_id": 18,
         "options": [
-            "Steam Locomotive", "Automobile"
+            "Dinosaurs", "First Flowers"
         ],
-        "correct_option": "Steam Locomotive",
-        "description": "Steam locomotives revolutionized transportation in the early 19th century, while the automobile, powered by internal combustion engines, gained prominence in the late 19th century."
+        "correct_option": "Dinosaurs",
+        "description": "Dinosaurs, which dominated the Earth during the Mesozoic Era, existed from approximately 230 to 65 million years ago. In contrast, the emergence of the first flowers, marking the rise of angiosperms, occurred around 140 million years ago, adding vibrant colors and new ecological dynamics to terrestrial ecosystems."
     }, {
         "pair_id": 19,
         "options": [
-            "Hubble Space Telescope", "iPhone"
+            "Hubble Space Telescope", "The First iPhone"
         ],
         "correct_option": "Hubble Space Telescope",
         "description": "The Hubble Space Telescope, launched in 1990, provided stunning images of distant galaxies. The iPhone, a revolutionary smartphone, was introduced by Apple in 2007."
@@ -223,10 +223,10 @@
     }, {
         "pair_id": 31,
         "options": [
-            "Steam Locomotive", "Automobile"
+            "Rice Cultivation", "Wheat Cultivation"
         ],
-        "correct_option": "Automobile",
-        "description": "The steam locomotive gained prominence in the 19th century, revolutionizing transportation. The automobile, powered by internal combustion engines, became widespread in the early 20th century."
+        "correct_option": "Wheat Cultivation",
+        "description": "Wheat cultivation dates back to ancient civilizations, with evidence of its cultivation in the Fertile Crescent around 9600 BCE. It played a crucial role in the development of agriculture and settled societies. In contrast, rice cultivation began in Asia around 7000 BCE, contributing to the growth of complex civilizations in regions like the Indus Valley and China."
     }, {
         "pair_id": 32,
         "options": [
@@ -248,7 +248,7 @@
             "Atomic Theory", "Theory of Relativity"
         ],
         "correct_option": "Atomic Theory",
-        "description": "Atomic theory, proposed by ancient Greek philosophers, gained modern understanding in the early 20th century with developments in quantum mechanics. Albert Einstein's theory of relativity revolutionized physics in the early 20th century."
+        "description": "Atomic theory, first proposed by ancient Greek philosophers around 5th century BCE, gained modern understanding in the 19th and 20th centuries through advancements in chemistry and quantum mechanics. Meanwhile, Albert Einstein's theory of relativity, formulated in the early 20th century, revolutionized our understanding of space, time, and gravity."
     }, {
         "pair_id": 35,
         "options": [
@@ -268,7 +268,7 @@
         "options": [
             "Fax Machine", "Email"
         ],
-        "correct_option": "Email",
+        "correct_option": "Fax Machine",
         "description": "The fax machine, used for transmitting documents over phone lines, gained popularity in the mid-20th century. Email, a revolutionary form of electronic communication, emerged in the late 20th century."
     }, {
         "pair_id": 38,
@@ -282,8 +282,8 @@
         "options": [
             "Leonardo da Vinci", "Michelangelo"
         ],
-        "correct_option": "Michelangelo",
-        "description": "Leonardo da Vinci, a Renaissance polymath, lived from 1452 to 1519, known for his diverse talents. Michelangelo, a renowned artist and sculptor, lived from 1475 to 1564, leaving a lasting mark on art.",
+        "correct_option": "Leonardo da Vinci",
+        "description": "Leonardo da Vinci, a Renaissance polymath, lived from 1452 to 1519, known for his diverse talents. Michelangelo, a renowned artist, and sculptor, lived from 1475 to 1564, leaving a lasting mark on art.",
         "is_person": true
     }, {
         "pair_id": 40,
@@ -367,6 +367,228 @@
         "correct_option": "Taylor Swift",
         "description": "Taylor Swift, born on December 13, 1989, is a renowned singer-songwriter who gained prominence in the mid-2000s and has become one of the most successful artists of her generation. Ed Sheeran, born on February 17, 1991, is also a singer-songwriter who rose to fame in the late 2000s and has achieved global recognition for his heartfelt music and performances.",
         "is_person": true
-    }
+    }, {
+        "pair_id": 51,
+        "options": [
+            "Piano", "Violin"
+        ],
+        "correct_option": "Violin",
+        "description": "The violin, with origins dating back to the early 16th century, produces melodic and expressive sounds. The piano, invented in the early 18th century, gained popularity as a versatile keyboard instrument."
+    }, {
+        "pair_id": 52,
+        "options": [
+            "Violin", "Mandolin"
+        ],
+        "correct_option": "Violin",
+        "description": "The mandolin, developed in the 18th century and popularized in various musical styles, has a distinct twangy sound. The violin, with its classical heritage dating back centuries even before the Mandolin, is known for its rich and resonant tones."
+    }, {
+        "pair_id": 53,
+        "options": [
+            "Flute", "Saxophone"
+        ],
+        "correct_option": "Flute",
+        "description": "The saxophone, invented by Adolphe Sax in the mid-19th century, is a versatile woodwind instrument with a powerful and expressive sound. The flute, the oldest of which are dating to about 53,000 to 45,000 years old, produces sweet and airy tones."
+    }, {
+        "pair_id": 54,
+        "options": [
+            "Guitar", "Drums"
+        ],
+        "correct_option": "Guitar",
+        "description": "The guitar, with origins dating back to ancient civilizations, has evolved into a versatile string instrument producing melodic and rhythmic sounds. Drums, essential percussive instruments, have been used for millennia to provide rhythmic foundations."
+    }, {
+        "pair_id": 55,
+        "options": [
+            "Ukulele", "Guitar"
+        ],
+        "correct_option": "Guitar",
+        "description": "The guitar, with ancient roots and diverse styles, produces melodic and rhythmic sounds. The ukulele, developed in the 19th century in Hawaii, is known for its bright and cheerful tones."
+    }, {
+        "pair_id": 56,
+        "options": [
+            "London", "New York"
+        ],
+        "correct_option": "London",
+        "description": "London, founded by the Romans around 43 AD, has a rich history as the capital of the United Kingdom. New York, originally settled by the Dutch in the early 17th century, later became a major global city."
+    }, {
+        "pair_id": 57,
+        "options": [
+            "Kolkata", "Delhi"
+        ],
+        "correct_option": "Delhi",
+        "description": "Delhi, with a history dating back to ancient times, has served as a capital for various empires. Kolkata, founded by the British in the 17th century, was an important center of trade and culture during the colonial era."
+    }, {
+        "pair_id": 58,
+        "options": [
+            "Cotton", "Silk"
+        ],
+        "correct_option": "Cotton",
+        "description": "Reports of the spinning of cotton in India date back to 3000 BCE, showcasing its early use in textiles. The highly developed Chinese culture originated the manufacture of silk and silk products, with the invention and development of sericulture (cultivation of silkworms for raw-silk production) and methods to spin silk dating from 2640 BCE."
+    }, {
+        "pair_id": 59,
+        "options": [
+            "Indus Valley Civilisation", "Roman Empire"
+        ],
+        "correct_option": "Indus Valley Civilisation",
+        "description": "The Indus Valley Civilisation, a remarkable Bronze Age culture that thrived from 3300 BCE to 1300 BCE, flourished in what is now modern-day Pakistan and India. Known for its sophisticated urban planning, advanced drainage systems, and intricate trade networks, the Indus Valley Civilisation left behind impressive ruins and artifacts. The Roman Empire, founded in 31 BCE, encompassed vast territories across Europe, North Africa, and the Middle East. Renowned for its engineering marvels, governance, and cultural contributions, the Roman Empire shaped the course of history for centuries."
+    }, {
+        "pair_id": 60,
+        "options": [
+            "Telegraph", "Telephone"
+        ],
+        "correct_option": "Telegraph",
+        "description": "The telegraph, developed in the early 19th century, revolutionized long-distance communication by transmitting coded electrical signals over wires. It enabled near-instantaneous communication across great distances. The telephone, invented by Alexander Graham Bell in 1876, further advanced communication by allowing voice transmission through electrical signals, transforming personal and business interactions."
+    }, {
+        "pair_id": 61,
+        "options": [
+            "Fiction Books", "Non-Fiction Books"
+        ],
+        "correct_option": "Fiction Books",
+        "description": "Fictional literature, including novels, short stories, and myths, has been part of storytelling traditions for centuries. Non-fiction, encompassing factual accounts and essays, emerged as a distinct genre much later."
+    }, {
+        "pair_id": 62,
+        "options": [
+            "Rome", "Athens"
+        ],
+        "correct_option": "Athens",
+        "description": "Athens, the ancient Greek city-state, is often regarded as the birthplace of democracy and the center of ancient Greek civilization. It was founded around 3000 BCE. Rome, on the other hand, originated as a small settlement in the 8th century BCE and later became a powerful empire that absorbed Greek influences."
+    }, {
+        "pair_id": 63,
+        "options": [
+            "Jazz", "Rock"
+        ],
+        "correct_option": "Jazz",
+        "description": "Jazz, a genre originating in the African-American communities of New Orleans, Louisiana, in the late 19th and early 20th centuries, evolved from mixed cultures, with roots in blues and ragtime. Rock music, on the other hand, developed from blues, country, and jazz influences in the 1950s."
+    }, {
+        "pair_id": 64,
+        "options": [
+            "Toothbrush", "Toothpaste"
+        ],
+        "correct_option": "Toothbrush",
+        "description": "Toothbrushing tools date back to 3500-3000 BC when the Babylonians and the Egyptians made a brush by fraying the end of a twig. Around 1600 BC, the Chinese developed 'chewing sticks.' Toothpaste, used for oral hygiene, has ancient origins, with early use by Egyptians around 5000 BC, even before toothbrushes were invented"
+    }, {
+        "pair_id": 65,
+        "options": [
+            "Skirts", "Pants"
+        ],
+        "correct_option": "Skirts",
+        "description": "Skirts, garments worn around the waist, have been part of human clothing for centuries, dating back to ancient civilizations. They have varied in length, style, and material across different cultures and time periods. On the other hand, pants, a more recent addition to clothing, became more common in the late Middle Ages and Renaissance as societies evolved and activities required greater mobility. Pants offer increased practicality and are often associated with modern fashion trends."
+    }, {
+        "pair_id": 66,
+        "options": [
+            "Steam Engine", "Automobile"
+        ],
+        "correct_option": "Steam Engine",
+        "description": "The steam engine, a revolutionary invention, was developed in the 18th century. It played a crucial role in the Industrial Revolution by powering machinery and transportation. Automobiles, powered by internal combustion engines, came much later. On January 29, 1886, Carl Benz applied for a patent for his “vehicle powered by a gas engine.” The patent number: 37435 may be regarded as the birth certificate of the automobile."
+    }, {
+        "pair_id": 67,
+        "options": [
+            "Mirrors", "Combs"
+        ],
+        "correct_option": "Mirrors",
+        "description": "Mirrors have a long history dating back approximately 8000 years. The earliest known manufactured mirrors were made from obsidian with a convex surface and remarkably good optical quality. These mirrors have been found in Anatolia (south central modern-day Turkey). On the other hand, combs have been used since prehistoric times, with refined forms discovered in settlements dating back 5,000 years in Persia."
+    }, {
+        "pair_id": 68,
+        "options": [
+            "Refrigerator", "Microwave Oven"
+        ],
+        "correct_option": "Refrigerator",
+        "description": "The first practical refrigeration machine was built in the early 1800s. The concept of microwave heating using magnetrons was developed during World War II, and the first microwave oven for domestic use was introduced in the 1950s."
+    }, {
+        "pair_id": 69,
+        "options": [
+            "Umbrella", "Raincoat"
+        ],
+        "correct_option": "Umbrella",
+        "description": "Umbrellas as protective devices date back thousands of years to ancient civilizations. The raincoat designed much later, designed for wet weather, gained popularity in the 19th century as waterproof materials were developed."
+    }, {
+        "pair_id": 70,
+        "options": [
+            "Wrist Watch", "Calculators"
+        ],
+        "correct_option": "Wrist Watch",
+        "description": "The wrist watch, a portable timekeeping device worn on the wrist, became popular in the late 19th and early 20th centuries. It evolved from pocket watches and quickly became a fashionable accessory. On the other hand, calculators, devices used for mathematical calculations, were developed in various forms over the years. The mechanical calculators of the 19th century paved the way for electronic and digital calculators, which gained prominence in the mid-20th century as technology advanced."
+    }, {
+        "pair_id": 71,
+        "options": [
+            "Pencil", "Eraser"
+        ],
+        "correct_option": "Pencil",
+        "description": "The modern pencil with a graphite core encased in wood was developed in the 16th century. Erasers, used to remove pencil marks, were introduced in the 18th century as rubber became available."
+    }, {
+        "pair_id": 72,
+        "options": [
+            "Laptop", "Smartphone"
+        ],
+        "correct_option": "Smartphone",
+        "description": "Laptops, portable computers, became popular in the late 20th century with advancements in technology. Smartphones, combining mobile communication and computing, emerged in the early 21st century."
+    }, {
+        "pair_id": 73,
+        "options": [
+            "Bed", "Pillow"
+        ],
+        "correct_option": "Bed",
+        "description": "Beds, used since ancient times, have evolved from simple structures to comfortable sleep surfaces. The oldest known 'bed' dates back 77,000 years, discovered in South Africa, consisting of layers of plant material. Pillows originated in ancient Mesopotamia around 7,000 B.C., providing comfort during sleep."
+    }, {
+        "pair_id": 74,
+        "options": [
+            "Socks", "Shoes"
+        ],
+        "correct_option": "Shoes",
+        "description": "Socks, worn on the feet for warmth and comfort, have a history dating back to ancient times. The earliest known pair of socks, created by Nålebinding (Danish: literally 'binding with a needle' or 'needle-binding'), dates from 300 to 500 CE. On the other hand, shoes, protective footwear, have an even longer history, with the oldest known leather shoe, the Areni-1 shoe, dating back around 5,500 years."
+    }, {
+        "pair_id": 75,
+        "options": [
+            "Fork", "Knife"
+        ],
+        "correct_option": "Knife",
+        "description": "Knives have been essential tools for cutting and chopping throughout history. In fact, the first knives date back as far as 2 and a half million years ago and were crafted by early ancestors of modern humans. Forks, used for eating, became more common in Europe during the Middle Ages as dining customs evolved."
+    }, {
+        "pair_id": 76,
+        "options": [
+            "Shah Rukh Khan", "Salman Khan"
+        ],
+        "correct_option": "Shah Rukh Khan",
+        "description": "Salman Khan, born on December 27, 1965, is a prominent Bollywood actor known for his versatile roles in Indian cinema. Shah Rukh Khan, born on November 2, 1965, is another iconic Bollywood actor, often referred to as the 'King of Bollywood,' with numerous successful films to his credit. Their birthdays are just a month apart, but Shahrukh predates Salman!"
+    }, {
+        "pair_id": 77,
+        "options": [
+            "Camel", "Grass"
+        ],
+        "correct_option": "Camel",
+        "description": "Camels, members of the Camelidae family, first evolved in North America approximately 35 million years ago. These adaptable mammals played important roles in transportation and trade. Grass, a vital component of ecosystems, has been a primary producer for millions of years, forming the basis of many food chains. They first appeared about 20 million years ago!"
+    }, {
+        "pair_id": 78,
+        "options": [
+            "Jellyfish", "Spiders"
+        ],
+        "correct_option": "Jellyfish",
+        "description": "Spiders, arachnids known for their silk-spinning abilities, evolved over 380 million years ago, becoming skilled predators in various habitats. Jellyfish, ancient marine creatures, originated around 500 million years ago, displaying simple yet effective locomotion and defense mechanisms in ocean currents."
+    }, {
+        "pair_id": 79,
+        "options": [
+            "Earthworms", "Ants"
+        ],
+        "correct_option": "Earthworms",
+        "description": "Earthworms, essential soil-dwellers, have been on Earth for over 300 million years, contributing to soil health and nutrient cycling. Ants, known for their social behavior, evolved around 100 million years ago, forming complex colonies with various roles."
+    }, {
+        "pair_id": 80,
+        "options": [
+            "USA", "Eyeglasses"
+        ],
+        "correct_option": "Eyeglasses",
+        "description": "Eyeglasses, invented in the late 13th century, provided a revolutionary solution for improving vision. The United States of America (USA) emerged as an independent nation in 1776, marking a significant milestone in history."
+    },
 
+    {
+        "pair_id": 81,
+        "options": ["Sewing Machine", "Stethoscope"],
+        "correct_option": "Stethoscope",
+        "description": "The sewing machine, a significant advancement in textile manufacturing, was invented in the early 19th century. The first practical sewing machine was patented by Barthélemy Thimonnier on July 17, 1830. On the other hand, the stethoscope, a vital medical instrument, was invented by René Laennec in 1816, marking a breakthrough in auscultation."
+      },
+      {
+        "pair_id": 82,
+        "options": ["Bicycle", "Barometer"],
+        "correct_option": "Barometer",
+        "description": "The barometer, an instrument used to measure atmospheric pressure, was invented in the 17th century. Evangelista Torricelli invented the mercury barometer in 1643. The bicycle, a human-powered mode of transportation, was invented in the early 19th century."
+      }
 ]
