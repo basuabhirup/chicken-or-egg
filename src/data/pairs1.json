@@ -33,7 +33,7 @@
     }, {
         "pair_id": 4,
         "options": [
-            "Stonehenge", "Colosseum"
+            "Colosseum", "Stonehenge"
         ],
         "correct_option": "Stonehenge",
         "description": "Stonehenge's construction began around 3000 BCE as a prehistoric monument, whereas the Colosseum was built in 70-80 CE, hosting gladiatorial contests and spectacles."
@@ -47,21 +47,21 @@
     }, {
         "pair_id": 6,
         "options": [
-            "Gunpowder", "Printing Press"
+            "Printing Press", "Gunpowder"
         ],
         "correct_option": "Gunpowder",
         "description": "Gunpowder was invented in 9th-century China, revolutionizing warfare. The printing press, developed by Johannes Gutenberg in the 15th century, transformed communication and education."
     }, {
         "pair_id": 7,
         "options": [
-            "Mona Lisa", "Starry Night"
+            "Starry Night", "Mona Lisa"
         ],
         "correct_option": "Mona Lisa",
         "description": "The Mona Lisa was painted by Leonardo da Vinci in the early 16th century, while Vincent van Gogh's Starry Night was created in 1889."
     }, {
         "pair_id": 8,
         "options": [
-            "Steam Engine", "Electricity"
+            "Electricity", "Steam Engine"
         ],
         "correct_option": "Steam Engine",
         "description": "The steam engine, crucial to the Industrial Revolution, was developed in the 18th century. Electricity, harnessed for practical use, emerged in the late 19th century."
@@ -75,7 +75,7 @@
     }, {
         "pair_id": 10,
         "options": [
-            "Penicillin", "Polio Vaccine"
+            "Polio Vaccine", "Penicillin"
         ],
         "correct_option": "Penicillin",
         "description": "Alexander Fleming discovered penicillin's antibacterial properties in 1928, leading to the development of antibiotics. The polio vaccine, created by Jonas Salk in 1955, marked a major breakthrough in public health."
@@ -89,14 +89,14 @@
     }, {
         "pair_id": 12,
         "options": [
-            "Internet", "Smartphone"
+            "Smartphone", "Internet"
         ],
         "correct_option": "Internet",
         "description": "The precursor to the internet, ARPANET, was established in the late 1960s. The first smartphone, IBM Simon, was introduced in 1992."
     }, {
         "pair_id": 13,
         "options": [
-            "Facebook", "YouTube"
+            "YouTube", "Facebook"
         ],
         "correct_option": "Facebook",
         "description": "YouTube, a platform for sharing videos, was created in 2005. Facebook, a social networking site, started in 2004, connecting people globally."
@@ -131,7 +131,7 @@
     }, {
         "pair_id": 18,
         "options": [
-            "Dinosaurs", "First Flowers"
+            "First Flowers", "Dinosaurs"
         ],
         "correct_option": "Dinosaurs",
         "description": "Dinosaurs, which dominated the Earth during the Mesozoic Era, existed from approximately 230 to 65 million years ago. In contrast, the emergence of the first flowers, marking the rise of angiosperms, occurred around 140 million years ago, adding vibrant colors and new ecological dynamics to terrestrial ecosystems."
@@ -173,7 +173,7 @@
     }, {
         "pair_id": 24,
         "options": [
-            "Vinyl Records", "Compact Discs"
+            "Compact Discs", "Vinyl Records"
         ],
         "correct_option": "Vinyl Records",
         "description": "Vinyl records, analog audio discs, were introduced in the late 19th century and experienced their peak in the mid-20th century. Compact Discs (CDs), digital optical discs, were introduced in the 1980s."
@@ -187,7 +187,7 @@
     }, {
         "pair_id": 26,
         "options": [
-            "Cave Paintings", "Hieroglyphs"
+            "Hieroglyphs", "Cave Paintings"
         ],
         "correct_option": "Cave Paintings",
         "description": "Cave paintings, found in various parts of the world, date back tens of thousands of years, capturing early human artistry. Hieroglyphs, a form of ancient Egyptian writing, began around 3300 BCE."
@@ -208,7 +208,7 @@
     }, {
         "pair_id": 29,
         "options": [
-            "Sundial", "Compass"
+            "Compass", "Sundial"
         ],
         "correct_option": "Compass",
         "description": "Sundials, relying on the sun's position, were used by ancient civilizations. The compass, invented in ancient China, became a navigational aid by the 11th century."
@@ -238,7 +238,7 @@
     }, {
         "pair_id": 33,
         "options": [
-            "Penicillin", "X-rays"
+            "X-rays", "Penicillin"
         ],
         "correct_option": "X-rays",
         "description": "X-rays, a groundbreaking medical imaging technology, were discovered by Wilhelm Conrad Roentgen in 1895. Penicillin, the first widely used antibiotic, was discovered by Alexander Fleming in 1928."
@@ -273,7 +273,7 @@
     }, {
         "pair_id": 38,
         "options": [
-            "First Olympics", "First Paralympics"
+            "First Paralympics", "First Olympics"
         ],
         "correct_option": "First Olympics",
         "description": "The ancient Olympic Games began in ancient Greece around 776 BCE. The Paralympic Games, for athletes with disabilities, were first held in 1960."
@@ -309,7 +309,7 @@
     }, {
         "pair_id": 43,
         "options": [
-            "Igneous Rocks", "Sedimentary Rocks"
+            "Sedimentary Rocks", "Igneous Rocks"
         ],
         "correct_option": "Igneous Rocks",
         "description": "Igneous rocks form from the cooling and solidification of molten materials such as magma or lava. They are the oldest type of rocks on Earth, dating back billions of years. Sedimentary rocks, on the other hand, are formed by the accumulation and compression of sediment over time. While both types of rocks contribute to the Earth's geological history, igneous rocks predate sedimentary rocks in terms of their formation and origin."
@@ -338,7 +338,7 @@
     }, {
         "pair_id": 47,
         "options": [
-            "Elvis Presley", "Madonna"
+            "Madonna", "Elvis Presley"
         ],
         "correct_option": "Elvis Presley",
         "description": "Elvis Presley, born on January 8, 1935, was the King of Rock and Roll, becoming a cultural icon with his rockabilly sound in the 1950s. Madonna, born on August 16, 1958, and known as the Queen of Pop, rose to prominence in the 1980s with hits like 'Like a Virgin' and 'Material Girl.' While both artists have left their marks on popular music, Elvis Presley predates Madonna and played a pivotal role in shaping rock and roll.",
@@ -354,7 +354,7 @@
     }, {
         "pair_id": 49,
         "options": [
-            "Frank Sinatra", "Elton John"
+            "Elton John", "Frank Sinatra"
         ],
         "correct_option": "Frank Sinatra",
         "description": "Frank Sinatra, born on December 12, 1915, known as the Chairman of the Board, was a legendary crooner and actor with hits like 'My Way' and 'New York, New York.' Elton John, born on March 25, 1947, a singer-songwriter and pianist, captivated audiences with his distinctive style and songs like 'Rocket Man' and 'Candle in the Wind.' While both artists are celebrated, Frank Sinatra predates Elton John and is a symbol of classic vocal performance.",
@@ -391,7 +391,7 @@
     }, {
         "pair_id": 54,
         "options": [
-            "Guitar", "Drums"
+            "Drums", "Guitar"
         ],
         "correct_option": "Guitar",
         "description": "The guitar, with origins dating back to ancient civilizations, has evolved into a versatile string instrument producing melodic and rhythmic sounds. Drums, essential percussive instruments, have been used for millennia to provide rhythmic foundations."
@@ -426,7 +426,7 @@
     }, {
         "pair_id": 59,
         "options": [
-            "Indus Valley Civilisation", "Roman Empire"
+            "Roman Empire", "Indus Valley Civilisation"
         ],
         "correct_option": "Indus Valley Civilisation",
         "description": "The Indus Valley Civilisation, a remarkable Bronze Age culture that thrived from 3300 BCE to 1300 BCE, flourished in what is now modern-day Pakistan and India. The Roman Empire, founded in 31 BCE, encompassed vast territories across Europe, North Africa, and the Middle East.They both had their own contributions to the world, but in terms of time, The Indus Valley Civilisation fluorished before the Roman Empire."
@@ -454,7 +454,7 @@
     }, {
         "pair_id": 63,
         "options": [
-            "Jazz", "Rock"
+            "Rock", "Jazz"
         ],
         "correct_option": "Jazz",
         "description": "Jazz, a genre originating in the African-American communities of New Orleans, Louisiana, in the late 19th and early 20th centuries, evolved from mixed cultures, with roots in blues and ragtime. Rock music, on the other hand, developed from blues, country, and jazz influences in the 1950s."
@@ -468,7 +468,7 @@
     }, {
         "pair_id": 65,
         "options": [
-            "Skirts", "Pants"
+            "Pants", "Skirts"
         ],
         "correct_option": "Skirts",
         "description": "Skirts, garments worn around the waist, have been part of human clothing for centuries, dating back to ancient civilizations. They have varied in length, style, and material across different cultures and time periods. On the other hand, pants, a more recent addition to clothing, became more common in the late Middle Ages and Renaissance as societies evolved and activities required greater mobility. Pants offer increased practicality and are often associated with modern fashion trends."
@@ -482,7 +482,7 @@
     }, {
         "pair_id": 67,
         "options": [
-            "Mirrors", "Combs"
+            "Combs", "Mirrors"
         ],
         "correct_option": "Mirrors",
         "description": "Mirrors have a long history dating back approximately 8000 years. The earliest known manufactured mirrors were made from obsidian with a convex surface and remarkably good optical quality. These mirrors have been found in Anatolia (south central modern-day Turkey). On the other hand, combs have been used since prehistoric times, with refined forms discovered in settlements dating back 5,000 years in Persia."
@@ -496,14 +496,14 @@
     }, {
         "pair_id": 69,
         "options": [
-            "Umbrella", "Raincoat"
+            "Raincoat", "Umbrella"
         ],
         "correct_option": "Umbrella",
         "description": "Umbrellas as protective devices date back thousands of years to ancient civilizations. The raincoat designed much later, designed for wet weather, gained popularity in the 19th century as waterproof materials were developed."
     }, {
         "pair_id": 70,
         "options": [
-            "Wrist Watch", "Calculators"
+            "Calculators", "Wrist Watch"
         ],
         "correct_option": "Wrist Watch",
         "description": "The wrist watch, a portable timekeeping device worn on the wrist, became popular in the late 19th and early 20th centuries. It evolved from pocket watches and quickly became a fashionable accessory. On the other hand, calculators, devices used for mathematical calculations, were developed in various forms over the years. The mechanical calculators of the 19th century paved the way for electronic and digital calculators, which gained prominence in the mid-20th century as technology advanced."
@@ -577,18 +577,19 @@
         ],
         "correct_option": "Eyeglasses",
         "description": "Eyeglasses, invented in the late 13th century, provided a revolutionary solution for improving vision. The United States of America (USA) emerged as an independent nation in 1776, marking a significant milestone in history."
-    },
-
-    {
+    }, {
         "pair_id": 81,
-        "options": ["Sewing Machine", "Stethoscope"],
+        "options": [
+            "Sewing Machine", "Stethoscope"
+        ],
         "correct_option": "Stethoscope",
         "description": "The sewing machine, a significant advancement in textile manufacturing, was invented in the early 19th century. The first practical sewing machine was patented by Barthélemy Thimonnier on July 17, 1830. On the other hand, the stethoscope, a vital medical instrument, was invented by René Laennec in 1816, marking a breakthrough in auscultation."
-      },
-      {
+    }, {
         "pair_id": 82,
-        "options": ["Bicycle", "Barometer"],
+        "options": [
+            "Bicycle", "Barometer"
+        ],
         "correct_option": "Barometer",
         "description": "The barometer, an instrument used to measure atmospheric pressure, was invented in the 17th century. Evangelista Torricelli invented the mercury barometer in 1643. The bicycle, a human-powered mode of transportation, was invented in the early 19th century."
-      }
+    }
 ]
